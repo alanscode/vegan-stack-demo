@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "graphql-subscriptions": "^0.5.8",
+    "graphql-yoga": "^1.7.0"
+  }
+}
