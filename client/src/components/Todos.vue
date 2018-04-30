@@ -1,7 +1,6 @@
 <template>
   <div class="container is-fullhd has-text-centered">
-      <div class="notification">      
-      
+      <div class="notification">    
       <div>
           <table class="table is-bordered is-inline-block">
           <tr>
