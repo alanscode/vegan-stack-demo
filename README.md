@@ -1,4 +1,16 @@
-# VEGAN Stack Demo
+VEGAN Stack Demo
+================
+
+Vuejs
+-----
+Express
+-------
+GraphQL
+-------
+Apollo
+------
+Node
+----
 
 ## Starting the client web server
 > cd client
