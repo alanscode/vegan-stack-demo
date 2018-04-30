@@ -22,7 +22,8 @@ const httpLink = new HttpLink({
 
 // Create the subscription websocket link
 const wsLink = new WebSocketLink({
-  uri: 'wss://localhost:9000',
+//uri: 'wss://graph-yoga-example-sourdiesel.c9users.io',
+  uri: 'ws://localhost:9000',
   options: {
     reconnect: true,
   },
