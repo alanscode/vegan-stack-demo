@@ -33,4 +33,5 @@ VEGAN Stack Demo
 
 ## Live Demo
 > [Client](https://alannguyen.info/todos)
+>
 > [Server](https://graph-yoga-example-sourdiesel.c9users.io)
