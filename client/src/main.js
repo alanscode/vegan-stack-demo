@@ -16,13 +16,13 @@ import 'buefy/lib/buefy.css'
 Vue.use(Buefy)
 
 const httpLink = new HttpLink({
-  // You should use an absolute URL here
-  uri: 'https://graph-yoga-example-sourdiesel.c9users.io',
+  //uri: 'https://graph-yoga-example-sourdiesel.c9users.io',
+  uri: 'http://localhost:9000',
 })
 
 // Create the subscription websocket link
 const wsLink = new WebSocketLink({
-  uri: 'wss://graph-yoga-example-sourdiesel.c9users.io',
+  uri: 'wss://localhost:9000',
   options: {
     reconnect: true,
   },
