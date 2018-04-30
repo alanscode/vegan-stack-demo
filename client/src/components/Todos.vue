@@ -6,12 +6,12 @@
           <table class="table is-bordered is-inline-block">
           <tr>
               <td colspan="2">
-                <div class="field">
+            
                     <b-field>              
                         <b-input v-model="newTodo" placeholder="Add a new todo"></b-input>              
-                        <button class="button is-primary" @click="addTodo">Add</button>
+                        <button class="button is-primary" @click="addTodo" expanded>Add</button>
                     </b-field>
-                </div>
+            
               </td>
           </tr>
           <tr v-for="(todo,i) in todos" :key="i">
