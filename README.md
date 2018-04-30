@@ -1,16 +1,16 @@
 VEGAN Stack Demo
 ================
 
-Vuejs
------
-Express
+[Vuejs](https://vuejs.org/)
 -------
-GraphQL
+[Express](https://expressjs.com/)
 -------
-Apollo
+[GraphQL](https://graphql.org)
+---------
+[Apollo](https://www.apollographql.com)
+--------
+[Node](https://nodejs.org/en/)
 ------
-Node
-----
 
 ## Starting the client web server
 > cd client
