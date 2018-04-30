@@ -11,20 +11,18 @@ import { getMainDefinition } from 'apollo-utilities'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import VueApollo from 'vue-apollo'
 
-
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
 Vue.use(Buefy)
 
-
 const httpLink = new HttpLink({
   // You should use an absolute URL here
-  uri: 'http://localhost:9000',
+  uri: 'https://graph-yoga-example-sourdiesel.c9users.io',
 })
 
 // Create the subscription websocket link
 const wsLink = new WebSocketLink({
-  uri: 'ws://localhost:9000',
+  uri: 'wss://graph-yoga-example-sourdiesel.c9users.io',
   options: {
     reconnect: true,
   },
