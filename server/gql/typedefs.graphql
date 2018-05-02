@@ -1,0 +1,31 @@
+  #The thing I should be doing
+  type Todo { 
+    #Description of the thing I should be doing
+    todo: String
+    #Have I completed the thing I should be doing?
+    completed: Boolean
+  }
+  
+  input TodoInput {
+    todo: String
+    completed: Boolean
+  }
+  
+  type Query {
+    #Get all todos
+    todos: [Todo]
+  }
+  
+  type Mutation {
+    #Add a new todo
+    addTodo(newTodo: TodoInput): [Todo]
+    #Update an existing todo
+    updateTodo(todo: TodoInput): [Todo]
+    #Delete a todo
+    deleteTodo(todo: String): [Todo]
+  }
+  
+  type Subscription {
+    #Get real time todos 
+    todos: [Todo]
+  }

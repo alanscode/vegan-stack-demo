@@ -1,10 +1,15 @@
 {
   "scripts": {
-    "dev": "nodemon index"
+    "dev": "nodemon --exec babel-node index.js",
+    "start": "node index"
   },
   "dependencies": {
     "graphql-subscriptions": "^0.5.8",
-    "graphql-yoga": "^1.7.0",
+    "graphql-yoga": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "nodemon": "^1.17.3"
   }
 }
